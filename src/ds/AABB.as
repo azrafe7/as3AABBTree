@@ -167,7 +167,7 @@ package ds
 		
 		public function toString():String 
 		{
-			return '[x:${minX} y:${minY} w:${width} h:${height}]';
+			return "[x:" + minX + " y:" + minY + " w:" + width + " h:" + height + "]";
 		}
 	}
 }
